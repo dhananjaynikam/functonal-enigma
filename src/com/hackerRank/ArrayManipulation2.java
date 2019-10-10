@@ -40,7 +40,6 @@ public class ArrayManipulation2 {
 
     static void finalChange(long arr[], long[] diff){
         for (int j = 0; j < arr.length; j++) {
-
             if (j == 0)
                 arr[j] = diff[j];
             else
