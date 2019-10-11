@@ -5,9 +5,11 @@ public class LongestSubstring {
         String s = "pwwkew";
         String a = "au";
         String b = "dvdf";
-        System.out.println(lengthOfLongestSubstring(s));
-        System.out.println(lengthOfLongestSubstring(a));
-        System.out.println(lengthOfLongestSubstring(b));
+        String c = "";
+//        System.out.println(lengthOfLongestSubstring(s));
+//        System.out.println(lengthOfLongestSubstring(a));
+//        System.out.println(lengthOfLongestSubstring(b));
+        System.out.println(lengthOfLongestSubstring(c));
 
 }
     public static int lengthOfLongestSubstring(String str){
@@ -17,6 +19,9 @@ public class LongestSubstring {
         int max_len = 1;
         int prev_index;
         int visited[] = new int[NO_OF_CHARS];
+        if(str.length() == 0){
+            return 0;
+        }
         for (int i = 0; i < NO_OF_CHARS; i++) {
             visited[i] = -1;
         }
