@@ -114,7 +114,10 @@ public class LinkedList {
             return;
         }
     }
-
+    public Node getNode(){
+        Node temp = new Node();
+        return temp;
+    }
     public void displayLinkedList(){
         if(start == null){
             System.out.println("Empty LinkedList");

@@ -1,4 +1,4 @@
-package hackerRank;
+package com.hackerRank;
 
 public class BarclaysString {
     public static void main(String args[]){
