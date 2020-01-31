@@ -8,7 +8,7 @@ public class RemoveNthNOdeFromLL {
     }
 
     public static void main(String args[]){
-        
+
     }
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode headIterate = new ListNode(0);
