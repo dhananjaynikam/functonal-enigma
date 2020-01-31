@@ -12,9 +12,7 @@ public class StringToInteger {
     public static int myAtoi(String str){
         if(str == null || str.length() == 0) return 0;
 
-        //char[] ch = str.toCharArray();
         int minus = 0;
-        int id = 0;
         str = str.trim();
         if(str.length()==0) return 0;
 
