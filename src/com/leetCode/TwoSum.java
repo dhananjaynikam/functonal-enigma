@@ -1,4 +1,4 @@
-package hackerRank;
+package com.leetCode;
 
 import java.util.HashMap;
 

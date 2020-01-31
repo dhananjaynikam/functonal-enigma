@@ -1,4 +1,4 @@
-package hackerRank;
+package com.leetCode;
 
 public class IntegerToRoman {
     public static void main(String args[]){
