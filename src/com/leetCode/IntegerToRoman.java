@@ -19,6 +19,6 @@ public class IntegerToRoman {
                 num -= nums[i];
             }
         }
-        return new String(stringBuilder);
+        return stringBuilder.toString();
     }
 }
