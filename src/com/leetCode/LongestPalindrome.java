@@ -44,7 +44,7 @@ public class LongestPalindrome {
         }
         public static void main(String[] args) {
 
-            String str = "forgeeksskeegfor";
+            String str = "babad";
             System.out.println("Length is: " +
                     longestPalSubstr(str));
         }
