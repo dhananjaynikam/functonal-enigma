@@ -19,7 +19,7 @@ public class LetterCombinationPhoneNumber {
     public static List<String> output = new ArrayList<>();
 
     public static void main(String args[]){
-        System.out.println(letterCombinations(""));
+        System.out.println(letterCombinations("231"));
     }
 
     public static void backtrack(String combination, String nextDigits){
