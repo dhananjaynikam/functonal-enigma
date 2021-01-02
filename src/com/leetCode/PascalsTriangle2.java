@@ -24,7 +24,6 @@ public class PascalsTriangle2 {
         if(i == 1){
             return Arrays.asList(1,1);
         }
-
         List<Integer> prevRow = getRow(i-1);
         List<Integer> last = new ArrayList<>(Arrays.asList(1));
         for(int j = 1; j < prevRow.size();j++){
